@@ -1,7 +1,8 @@
+
 function upDate(preview){
-  console.log(preview)
-  console.log(preview.src)
-  console.log(preview.alt)
+  console.log(preview);
+  console.log(preview.src);
+  console.log(preview.alt);
   
    document.getElementById("image").style.backgroundImage = "url('" + preview.src + "')";
   document.getElementById("image").innerHTML = preview.alt;
