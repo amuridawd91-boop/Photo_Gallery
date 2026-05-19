@@ -2,19 +2,34 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-	<title>Photo Gallery</title>
+	<title>Interactive Photo Gallery</title>
 	<link rel="stylesheet" href="gallery.css">
-	<script src = "gallery.js"></script>
+	
 </head>
 	<body>
+		<header>
+			<h1>Favourite Anime Characters</h1>
+		</header>
 	<div id = "image">
 		Hover over an image below to display here.
 	</div>
 	
-	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" alt = "Madara Uchiha" src = "images/madara.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
 	
-	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" alt = "Monkey D. Luffy" src = "images/luffy.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
 	
-	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" src = "images/levi.jpeg" alt = "Levi Ackerman" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+
+	<img class = "preview" src = "images/sukuna.jpeg" alt = "Ryomen Sukuna" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+
+	<img class = "preview" src = "images/itachi.jpeg" alt = "Itachi Uchiha" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" src = "images/pain.jpeg" alt = "Nagato" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+
+	<img class = "preview" src = "images/naruto.jpeg" alt = "Naruto Uzumaki" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+
+
+	<script src = "gallery.js"></script>
+	
 </body>
 </html>
